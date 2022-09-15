@@ -1,0 +1,73 @@
+{
+  "name": "react-typescript-material",
+  "version": "1.2.7",
+  "description": "React + Material UI + Auth starter using TypeScript",
+  "author": {
+    "name": "Anton Karpenko",
+    "email": "i@karpolan.com",
+    "url": "https://karpolan.com"
+  },
+  "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "material",
+    "material ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karpolan/react-typescript-material-ui-with-auth-starter.git"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/styles": "latest",
+    "date-fns": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "typescript": "latest",
+    "validate.js": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "prettier": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "yarn -s && react-scripts start",
+    "build": "react-scripts build",
+    "type": "tsc",
+    "format": "node_modules/.bin/prettier src --write",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
